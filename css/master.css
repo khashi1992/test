@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.row{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: aqua;
+}
+.active{
+    background-color: rgb(169,184,247);
+    color: white;
+}
+@font-face {
+    font-family:tello;
+    src: url(../font/fontello.ttf);
+}
+@font-face {
+    font-family:sn;
+    src: url(../font/Roboto-Italic.ttf);
+}
